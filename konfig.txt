@@ -1,0 +1,3 @@
+!portsec
+ switchport port-security maximum 2
+ switchport port-security mac-address sticky 
