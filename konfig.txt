@@ -1,3 +1,7 @@
 !portsec
- switchport port-security maximum 2
- switchport port-security mac-address sticky 
+switchport port-security maximum 2
+switchport port-security mac-address sticky 
+!etherchannel
+channel-group 1 mode active
+channel-group 2 mode active
+channel-group 3 mode active
