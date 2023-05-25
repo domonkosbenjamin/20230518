@@ -5,3 +5,5 @@ switchport port-security mac-address sticky
 channel-group 1 mode active
 channel-group 2 mode active
 channel-group 3 mode active
+!dhcp snooping
+ip dhcp snooping trust
